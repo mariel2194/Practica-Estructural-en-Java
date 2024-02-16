@@ -1,9 +1,101 @@
 import java.util.Scanner;
 
-public class Ejercicio5 {
+public class EjerciciosJava {
 
   public static void main(String[] ar) {
+
+     //Capitulo 8 : Ejercicio 2
+
+    /* Se ingresa por teclado un valor entero, mostrar una leyenda que indique si el número es positivo, nulo o negativo.
+*/
+
     Scanner teclado = new Scanner(System.in);
+    int num1;
+    System.out.print("Ingrese primer valor:\n");
+    num1 = teclado.nextInt();
+
+    if (num1 > 0) {
+      System.out.print("El numero es positivo\n");
+    } else if (num1 == 0)
+    {
+      System.out.print("El numero es nulo\n");
+    } else
+    {
+      System.out.print("El numero es negativo\n");  
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    //Capitulo 8 : Ejercicio 1 
+
+    /*Se cargan por teclado tres números distintos. Mostrar por pantalla el mayor de ellos.
+
+    Scanner teclado = new Scanner(System.in);
+    int num1, num2, num3;
+    System.out.print("Ingrese primer valor:\n");
+    num1 = teclado.nextInt();
+    System.out.print("Ingrese segundo valor:\n");
+    num2 = teclado.nextInt();
+    System.out.print("Ingrese tercer valor:\n");
+    num3 = teclado.nextInt();
+
+    if (num1 > num2 && num1 > num3) {
+      System.out.print("El numero mayor es: " + num1);
+    } else if (num2 > num1 && num2 > num3) {
+      System.out.print("El numero mayor es: " + num2);
+    } else {
+      System.out.print("El numero mayor es: " + num3);
+    }
+
+*/
+
+
+
+
+
+    
+
+ /* Se ingresa por teclado un valor entero, mostrar una leyenda que indique si el número es positivo, nulo o negativo.
+*/   
+
+/*Confeccionar un programa que permita cargar un número entero positivo de hasta tres cifras y muestre un mensaje indicando si tiene 1, 2, o 3 cifras. Mostrar un mensaje de error si el número de cifras es mayor.*/
+
+
+
+
+
+
+
+    
+}
+    
+    
+
+
+
+
+
+
+
+  //Ejercicio 5 
+
+  /**Scanner teclado = new Scanner(System.in);
     String num1, num2, num3;
     System.out.print("Ingrese primer valor:\n");
     num1 = teclado.nextLine();
@@ -14,13 +106,7 @@ public class Ejercicio5 {
 
     }else {
       System.out.print("Este valor tiene mas de dos digitos:\n");
-
-    }
-    
-    
-    
-    
-    
+/
     
     /*int num1, num2, num3;
     System.out.print("Ingrese primer valor:\n");
@@ -86,4 +172,3 @@ public class Ejercicio5 {
   }
   */
 
-}
